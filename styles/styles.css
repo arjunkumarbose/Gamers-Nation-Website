@@ -20,6 +20,10 @@
   border: none;
   margin-left: 20px;
 }
+main {
+  max-width: 1440px;
+  margin: 70px auto;
+}
 
 /* CSS for the nav bar */
 .nav {
@@ -199,4 +203,70 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
+}
+
+/* play instantly section */
+
+.play-instantly {
+  margin-top: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 120px;
+}
+
+.play-instantly-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #534c64;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+
+.play-instantly-text h1 {
+  color: #0b0223;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 60px; /* 125% */
+  text-align: right;
+}
+
+.play-instantly img {
+  height: 60%;
+  margin-left: 220px;
+}
+
+.play-instantly-badge {
+  border-radius: 8px;
+  width: 340px;
+  padding: 20px;
+  position: relative;
+  bottom: 140px;
+}
+
+.play-instantly-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.play-instantly-text {
+  flex: 1;
+}
+
+.play-instantly-img {
+  position: relative;
+}
+
+.play-instantly-badge {
+  position: absolute;
+  bottom: -15%;
+  left: -10%;
 }
