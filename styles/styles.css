@@ -1,0 +1,67 @@
+* {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* CSS for the nav bar */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 120px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.span {
+  color: #ff42a5;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 86.041px;
+  height: 40px;
+  padding-right: 20px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.nav-links ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-right: 15px;
+}
+
+.nav-follow-us {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+}
+
+.nav-follow-us h5 {
+  margin-right: 10px;
+}
+
+.nav-follow-us li {
+  margin-right: 5px;
+}
+
+.nav-follow-us img {
+  width: 20px;
+  height: 20px;
+}
