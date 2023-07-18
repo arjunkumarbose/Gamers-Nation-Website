@@ -138,9 +138,7 @@ main {
   flex-direction: column;
   text-align: right;
 }
-.we-are-gamer-text {
-  padding-top: 40px;
-}
+
 .we-are-gamer h1 {
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
@@ -349,4 +347,72 @@ main {
 .image-button:hover {
   color: #ff42a5;
   border: 1px solid #ff42a5;
+}
+
+/* Footer Section */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #0b0223;
+  padding: 0 120px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer-h1 {
+  color: white;
+  margin: 10px 0 0 10px;
+}
+
+.footer-content-center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.footer-links-1 ul,
+.footer-links-2 ul,
+.footer-social-media ul {
+  display: flex;
+  list-style: none;
+  padding: 20px;
+}
+
+.footer-links-1 ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+.footer-links-2 ul li a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  margin-top: 40px;
+  padding: 10px;
+}
+
+.footer-social-media ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  padding: 15px;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 30px;
 }
