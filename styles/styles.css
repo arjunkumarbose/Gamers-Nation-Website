@@ -132,7 +132,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: right;
-  font-size: 48px;
+  font-size: 46px;
   font-weight: 700;
 }
 .we-are-gamer p {
@@ -170,3 +170,33 @@
 }
 
 /* Online Games Funny Videos Section */
+.gr-span {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 46px;
+  font-weight: 700;
+}
+.online-games-content {
+  padding: 0 120px;
+}
+.online-games-text h1 {
+  color: #0b0223;
+  font-size: 46px;
+  font-weight: 700;
+  text-align: center;
+}
+.online-games-text p {
+  color: #534c64;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.online-games-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
