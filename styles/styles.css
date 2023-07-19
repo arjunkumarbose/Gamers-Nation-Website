@@ -251,21 +251,21 @@ main {
 }
 
 .initial-image-1 {
-  background-image: url("../images/Rectangle\ 4.png"); /* Replace with the path to your initial image */
+  background-image: url("../images/Rectangle\ 4.png");
 }
 .initial-image-2 {
-  background-image: url("../images/Rectangle\ 5.png"); /* Replace with the path to your initial image */
+  background-image: url("../images/Rectangle\ 5.png");
 }
 .initial-image-3 {
-  background-image: url("../images/Rectangle\ 7.png"); /* Replace with the path to your initial image */
+  background-image: url("../images/Rectangle\ 7.png");
 }
 .initial-image-4 {
-  background-image: url("../images/Rectangle\ 6.png"); /* Replace with the path to your initial image */
+  background-image: url("../images/Rectangle\ 6.png");
 }
 
 .hover-image {
   opacity: 0;
-  background-image: url("../images/—Pngtree—watch\ now\ buttons_8791214.png"); /* Replace with the path to your hover image */
+  background-image: url("../images/—Pngtree—watch\ now\ buttons_8791214.png");
   background-size: cover;
   color: #f948b2;
 }
@@ -361,14 +361,14 @@ main {
   color: #fff;
   font-size: 46px;
   font-weight: 700;
-  line-height: 60px; /* 125% */
+  line-height: 60px;
 }
 
 .carrer-para {
   color: #fff;
   font-size: 16px;
   font-weight: 400;
-  line-height: 30px; /* 166.667% */
+  line-height: 30px;
 }
 
 .career-options {
@@ -376,7 +376,7 @@ main {
   color: #fff;
   font-size: 20px;
   font-weight: 600;
-  line-height: 40px; /* 200% */
+  line-height: 40px;
 }
 
 .career-img {
